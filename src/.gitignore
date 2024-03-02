@@ -48,3 +48,4 @@ dist/
 # Outros
 .DS_Store
 *.bak
+.idea/

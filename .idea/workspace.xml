@@ -4,54 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55e5de18-9fba-4ba1-ae96-c67454440649" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ContaEmDia.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/gunicorn_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/routes/v1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/routes/v1/financial_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/routes/v1/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/api/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crud/financial_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/crud/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/financial_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/interfaces.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/requirements-dev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/requirements-test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/conftest_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/crud/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/crud/test_basic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/crud/test_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/routes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/routes/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/routes/v1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/routes/v1/test_financial_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/routes/v1/test_user.py" afterDir="false" />
+    <list default="true" id="55e5de18-9fba-4ba1-ae96-c67454440649" name="Changes" comment="initial">
+      <change beforePath="$PROJECT_DIR$/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +73,7 @@
     "Python.user.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/luiz_/projects/refact/ContaEmDia/src/api/routes/v1"
   }
 }]]></component>
@@ -132,8 +86,8 @@
       <recent name="C:\Users\luiz_\projects\refact\ContaEmDia" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\luiz_\projects\refact\ContaEmDia\src\models" />
       <recent name="C:\Users\luiz_\projects\refact\ContaEmDia" />
+      <recent name="C:\Users\luiz_\projects\refact\ContaEmDia\src\models" />
       <recent name="C:\Users\luiz_\projects\refact\ContaEmDia\src\db" />
       <recent name="C:\Users\luiz_\projects\refact\ContaEmDia\src" />
     </key>
@@ -247,10 +201,23 @@
       <option name="presentableId" value="Default" />
       <updated>1708141055539</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <option name="closed" value="true" />
+      <created>1709348431133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709348431133</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
