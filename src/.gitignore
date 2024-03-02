@@ -1,0 +1,50 @@
+# Arquivos e diretórios específicos do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Diretórios específicos do ambiente virtual
+venv/
+env/
+.venv/
+env-bak/
+env_tmp/
+venv.bak/
+venv_tmp/
+ENV/
+envs/
+venvs/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.swp
+*~
+
+# Arquivos gerados durante a execução do teste
+.coverage
+htmlcov/
+.coverage.*
+.pytest_cache/
+pytestdebug.log
+__pytest_temp/
+
+# Banco de Dados SQLite
+*.sqlite3
+
+# Dependências instaladas
+lib/
+lib64/
+parts/
+sdist/
+build/
+dist/
+*.egg-info/
+*.egg
+*.egg-info
+.installed.cfg
+
+# Outros
+.DS_Store
+*.bak

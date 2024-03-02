@@ -1,0 +1,17 @@
+version: '3.3'
+services:
+  db_postgre:
+    image: postgres
+    container_name: db_postgre
+    ports:
+      - "5432:5432"
+    volumes:
+      - /tmp/database:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: 1234
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_ECHO: true
+      POSTGRES_POOL_SIZE: 5
+    restart: always
